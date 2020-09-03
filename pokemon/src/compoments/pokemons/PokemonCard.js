@@ -35,7 +35,6 @@ export default class PokemonCard extends Component {
                     <h5 className="card-header">{this.state.pokemonIndex} </h5>
                     <Sprite className="card-img-top rounded mx-auto mt-2"
                     src={this.state.imageUrl}>
-
                     </Sprite>
                        <div className="card-body mx-auto">
                            <h6 className="card-title">
